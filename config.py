@@ -15,7 +15,7 @@ class Config:
     DATABASE_NAME = environ.get("DATABASE_NAME", "zia")
     
     LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001583883335'))
-    FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "") # FORCE SUB channel link 
+    FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "-1001940661697") # FORCE SUB channel link 
     FORCE_SUB_ON = environ.get("FORCE_SUB_ON", "True")  # FORCE SUB ON - OFF
 
 
